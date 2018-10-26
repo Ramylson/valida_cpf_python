@@ -1,7 +1,7 @@
 # valida o número do cpf com pontos e hífens
 import re
 
-# cpf = str("361702628-18")
+# cpf = str("")
 cpf = str(input('Entre com o número do CPF, com pontos e hífen: \n'))
 if re.search('-', cpf):
     cpf = cpf.replace('.', '').split('-')
